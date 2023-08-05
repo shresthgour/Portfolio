@@ -16,14 +16,15 @@ import {
   figma,
   PW,
   freelancer,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  hirehub,
+  hoobank,
+  excelify,
+  newswave,
+  shopcart,
 } from "../assets";
 
 export const navLinks = [
@@ -195,30 +196,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "HireHub",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hirehub,
+    source_code_link: "https://github.com/shresthgour/Hire-Hub",
   },
   {
-    name: "Job IT",
+    name: "ShopCart",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
     tags: [
       {
         name: "react",
@@ -229,24 +226,24 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: shopcart,
+    source_code_link: "https://github.com/shresthgour/Shopcart",
   },
   {
-    name: "Trip Guide",
+    name: "Excelify",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "hooks",
         color: "green-text-gradient",
       },
       {
@@ -254,8 +251,46 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: excelify,
+    source_code_link: "https://github.com/shresthgour/excelify",
+  },
+  {
+    name: "Hoobank",
+    description:
+      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoobank,
+    source_code_link: "https://github.com/shresthgour/Hoobank",
+  },
+  {
+    name: "NewsWave",
+    description:
+      "It uses an API that fetches data and I showcased it using fetch API",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap5",
+        color: "green-text-gradient",
+      },
+    ],
+    image: newswave,
+    source_code_link: "https://github.com/shresthgour/NewsWave",
   },
 ];
 

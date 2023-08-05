@@ -32,8 +32,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import hirehub from './projects/hirehub.png';
+import hoobank from './projects/hoobank.png';
+import excelify from './projects/excelify.png';
+import newswave from './projects/newswave.png';
+import shopcart from './projects/shopcart.png';
+
 export {
   PW,
+  hirehub,
+  hoobank,
+  excelify,
+  newswave,
+  shopcart,
   logo,
   backend,
   creator,
