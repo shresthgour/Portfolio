@@ -27,6 +27,7 @@ import shopify from "./company/shopify.png"
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import freelancer from './company/freelancer.png'
+import buzzonearth from './company/buzzonearth.jpg'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -45,6 +46,7 @@ export {
   excelify,
   newswave,
   shopcart,
+  buzzonearth,
   logo,
   backend,
   creator,

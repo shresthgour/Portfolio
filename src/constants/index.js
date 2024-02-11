@@ -24,6 +24,7 @@ import {
   hoobank,
   excelify,
   newswave,
+  buzzonearth,
   shopcart,
 } from "../assets";
 
@@ -142,7 +143,7 @@ const experiences = [
   {
     title: "Full Stack Web Developer",
     company_name: "BuzzOnEarth",
-    icon: freelancer,
+    icon: buzzonearth,
     iconBg: "#E6DEDD",
     date: "September 2023 - Present",
     points: [
