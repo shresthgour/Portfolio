@@ -145,7 +145,7 @@ const experiences = [
     company_name: "BuzzOnEarth",
     icon: buzzonearth,
     iconBg: "#E6DEDD",
-    date: "September 2023 - Present",
+    date: "September 2023 - September 2024",
     points: [
       "Enhanced IndiaMUN performance by 20% through image optimization and code refinement.",
       "Transformed Indiamun with a complete redesign based on provided guidelines.",
