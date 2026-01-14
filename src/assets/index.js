@@ -38,9 +38,17 @@ import hoobank from './projects/hoobank.png';
 import excelify from './projects/excelify.png';
 import newswave from './projects/newswave.png';
 import shopcart from './projects/shopcart.png';
+import ace from './projects/ace.png';
+import gaming from './projects/gaming.png';
+import playground from './projects/playground.png';
+import freelancerp from './projects/freelancer.png';
 
 export {
   PW,
+  ace,
+  gaming,
+  playground,
+  freelancerp,
   hirehub,
   hoobank,
   excelify,

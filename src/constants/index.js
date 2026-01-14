@@ -22,6 +22,10 @@ import {
   threejs,
   hirehub,
   hoobank,
+  ace,
+  freelancerp,
+  gaming,
+  playground,
   excelify,
   newswave,
   buzzonearth,
@@ -217,65 +221,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "HireHub",
-    description:
-      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hirehub,
-    source_code_link: "https://github.com/shresthgour/Hire-Hub",
-  },
-  {
-    name: "ShopCart",
-    description:
-      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: shopcart,
-    source_code_link: "https://github.com/shresthgour/Shopcart",
-  },
-  {
-    name: "Excelify",
-    description:
-      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "hooks",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: excelify,
-    source_code_link: "https://github.com/shresthgour/excelify",
-  },
-  {
     name: "Hoobank",
     description:
       "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
@@ -297,22 +242,145 @@ const projects = [
     source_code_link: "https://github.com/shresthgour/Hoobank",
   },
   {
-    name: "NewsWave",
+    name: "3D Playground",
     description:
-      "It uses an API that fetches data and I showcased it using fetch API",
+      "A modern React- and Three.js-powered 3D playground designer enabling interactive layout creation, real-time visualization, and collision-aware equipment placement in the browser",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap5",
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "three",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "motion",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: playground,
+    source_code_link: "https://github.com/shresthgour/3D-Playground",
+  },
+  {
+    name: "Ace",
+    description:
+      "This is a website that I made from scratch during my internship because of that code will be private but there is a live link.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
     ],
-    image: newswave,
-    source_code_link: "https://github.com/shresthgour/NewsWave",
+    image: ace,
+    source_code_link: "https://aceindia.in",
   },
+  {
+    name: "Gaming Website",
+    description:
+      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences with animations. Witness the artistry of web development.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "motion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoobank,
+    source_code_link: "https://github.com/shresthgour/Hoobank",
+  },
+  // {
+  //   name: "HireHub",
+  //   description:
+  //     "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: hirehub,
+  //   source_code_link: "https://github.com/shresthgour/Hire-Hub",
+  // },
+  // {
+  //   name: "ShopCart",
+  //   description:
+  //     "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: shopcart,
+  //   source_code_link: "https://github.com/shresthgour/Shopcart",
+  // },
+  // {
+  //   name: "Excelify",
+  //   description:
+  //     "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "hooks",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: excelify,
+  //   source_code_link: "https://github.com/shresthgour/excelify",
+  // },
+  
+  // {
+  //   name: "NewsWave",
+  //   description:
+  //     "It uses an API that fetches data and I showcased it using fetch API",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "bootstrap5",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: newswave,
+  //   source_code_link: "https://github.com/shresthgour/NewsWave",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
