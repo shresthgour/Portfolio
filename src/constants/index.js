@@ -301,8 +301,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: hoobank,
-    source_code_link: "https://github.com/shresthgour/Hoobank",
+    image: gaming,
+    source_code_link: "https://github.com/shresthgour/Gaming-Website",
   },
   // {
   //   name: "HireHub",
