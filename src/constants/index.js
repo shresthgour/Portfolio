@@ -14,22 +14,15 @@ import {
   mongodb,
   git,
   figma,
-  PW,
-  freelancer,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-  hirehub,
-  hoobank,
   ace,
-  freelancerp,
   gaming,
   playground,
-  excelify,
-  newswave,
   buzzonearth,
-  shopcart,
+  eleve,
+  jaypore,
+  shaktipuja,
+  qliventures,
 } from "../assets";
 
 export const navLinks = [
@@ -39,7 +32,19 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -49,19 +54,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Frontend & Next.js",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend & REST APIs",
     icon: backend,
   },
   {
-    title: "Software Engineer",
+    title: "3D & Interactive Web",
     icon: creator,
   },
 ];
@@ -117,79 +122,131 @@ const technologies = [
   },
 ];
 
+export const skillCategories = [
+  {
+    title: "Frontend",
+    skills: [
+      "React.js",
+      "Next.js",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Material UI",
+      "Formik",
+      "Three.js",
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "CRUD",
+      "SMTP",
+      "Gmail / Outlook / Zoho Mail Integration",
+    ],
+  },
+  {
+    title: "Databases",
+    skills: ["MongoDB", "MySQL"],
+  },
+  {
+    title: "Tools & Hosting",
+    skills: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Jira",
+      "Figma",
+      "Vercel",
+      "Netlify",
+      "Server Hosting",
+      "Auto-deploy on Push",
+    ],
+  },
+  {
+    title: "APIs & Integrations",
+    skills: [
+      "Google Places API",
+      "Payment Gateway Integration",
+      "AI Chatbot Integration",
+      "SEO Basics",
+    ],
+  },
+];
+
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Physics Wallah",
-    icon: PW,
-    iconBg: "#383E56",
-    date: "May 2023 - June 2023",
-    points: [
-      "Designed, developed, and optimized a responsive and bug-free countdown app",
-      "Developed the app using HTML5, CSS3, JavaScript, ReactJS, and Tailwind CSS, ensuring a seamless and visually appealing user experience",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Managed and coordinated a two-person team, ensuring effective collaboration and achieving project goals.",
-    ],
-  },
-  {
-    title: "Freelancer",
-    company_name: "freelancer",
-    icon: freelancer,
-    iconBg: "#E6DEDD",
-    date: "June 2023 - August 2023",
-    points: [
-      "Developed dynamic and responsive websites for clients, utilizing both front-end and back-end technologies.",
-      "Collaborated with clients to understand project requirements, goals, and target audience to deliver customized solutions.",
-      "Designed and implemented intuitive user interfaces using HTML5, CSS3, and JavaScript, React JS, Tailwind CSS ensuring a seamless user experience across multiple devices.",
-      "Created robust back-end functionalities using frameworks such as Node.js and Express, and integrated databases (e.g., MySQL, MongoDB) for efficient data management.",
-    ],
-  },
-  {
     title: "Full Stack Web Developer",
-    company_name: "BuzzOnEarth",
-    icon: buzzonearth,
-    iconBg: "#E6DEDD",
-    date: "September 2023 - September 2024",
+    company_name: "Eleve Technologies",
+    location: "Jaipur (Remote)",
+    icon: eleve,
+    iconBg: "#ffffff",
+    date: "Jan 2026 – Present",
+    sections: [
+      {
+        heading: "Finonest (loan platform): frontend, admin panel and Node.js API",
+        points: [
+          "Built the Used Car Loan application form on a config-driven form component, with field validations, dependent fields and the rule changes the client kept sending. It submits to the API in the JSON format the backend team specified.",
+          "Wrote the lead status flow: a next-status button, an approval popup (loan amount, ROI, EMI, tenure), rejection reasons, RC collection and lead rework, on both the admin panel and the API.",
+          "Created APIs and screens for bank product recommendations, recoveries and payouts with Excel download, banner CRUD, document upload, bulk upload of multiple files and manager assignment.",
+          "Connected Gmail, Outlook and Zoho mail, then built the mail trail and conversation view for each lead. Added Google Places autocomplete for addresses.",
+          "Cleared Jira tickets, build errors and PR merge conflicts, and sat in on client demos and test rounds.",
+        ],
+      },
+      {
+        heading: "Client websites: frontend, admin panel, backend",
+        points: [
+          "Jaypore Murti: categories, products, sizes, stock, size charts, analytics, blog with a text editor and AI chatbot. Listed 200+ products and edited 200+ product photos.",
+          "Shakti Puja: built the site, admin, API and database. Includes an SMTP mailbox where admins read and reply to customer emails.",
+          "Qli Ventures, Nyaypath, Pooja Path, and Eleve Technologies site: venture consultancy platform, lawyer booking (three design versions), pooja booking with pandit management, and company site I built.",
+          "Made design variants and demo sites that the team used in client pitches.",
+        ],
+      },
+      {
+        heading: "Teaching (since Aug 2026)",
+        points: [
+          "Eleve assigned me to teach two team members. We run long daily sessions, on top of my project work.",
+        ],
+      },
+    ],
     points: [
-      "Enhanced IndiaMUN performance by 20% through image optimization and code refinement.",
-      "Transformed Indiamun with a complete redesign based on provided guidelines.",
-      "Developed responsive design for Indiamun , resolving previous non-responsiveness.",
-      "Implemented secure login/logout feature and custom data storage hook for IndiaMUN.",
-      "Developed Aceindia from scratch , following design specifications.",
-      "Resolved bugs on Gaiatheearthfoundation , improving overall functionality.",
-      "Integrated Razorpay payment on multiple sites using React.js, Firebase, and Node.js.",
-      "Redesigned and optimized Affiliate Now page on Indiamun for enhanced user experience.",
-      "Efficiently handled data storage and management using Firebase.",
-      "Coordinated with the design and marketing teams for seamless integration of web development strategies.",
-      "Built an entire backend server using Express js, Node js.",
+      "Finonest (loan platform): Built Used Car Loan form (config-driven, field validations, dependent fields), lead status flow (approval/rejection/rework), bank recommendations & recovery APIs, and email integration (Gmail/Outlook/Zoho).",
+      "Client websites: Delivered Jaypore Murti (e-commerce + AI chatbot), Shakti Puja (SMTP mailbox), Nyaypath, Pooja Path, and Eleve Technologies website from first design to hosting.",
+      "Teaching & Mentorship: Assigned by Eleve to teach two team members via daily long sessions alongside project delivery.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Frontend Developer Intern",
+    company_name: "BuzzOnEarth",
+    location: "Remote",
+    icon: buzzonearth,
+    iconBg: "#383E56",
+    date: "Sept 2023 – Dec 2023",
+    points: [
+      "Built MERN stack web apps and deployed them to hosting providers.",
+      "Improved site performance and added security measures across the site.",
+    ],
+  },
+];
+
+const educations = [
+  {
+    degree: "B.Tech, Computer Science Engineering",
+    institution: "Vivekananda Institute of Technology, Jaipur",
+    date: "2021 – 2025",
+    description:
+      "Core studies in Computer Science & Engineering covering Data Structures, Algorithms, Database Management Systems, Computer Networks, and Full Stack Software Architecture.",
+  },
+  {
+    degree: "Senior Secondary, CBSE",
+    institution: "Subodh Public School, Jaipur",
+    date: "2009 – 2021",
+    description:
+      "Completed senior secondary education under Central Board of Secondary Education (CBSE) with focus on Science and Mathematics.",
+  },
 ];
 
 const testimonials = [
@@ -221,55 +278,113 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Hoobank",
-    description:
-      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hoobank,
-    source_code_link: "https://github.com/shresthgour/Hoobank",
-  },
-  {
     name: "3D Playground",
     description:
-      "A modern React- and Three.js-powered 3D playground designer enabling interactive layout creation, real-time visualization, and collision-aware equipment placement in the browser",
+      "A browser tool for drawing shapes and placing playground objects in 3D. Supports Bézier curves, collision detection, textures, model scaling and a live area calculation. Deployed on Vercel.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "three",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
       {
-        name: "motion",
+        name: "r3f",
         color: "blue-text-gradient",
       },
     ],
     image: playground,
     source_code_link: "https://github.com/shresthgour/3D-Playground",
+    live_link: "https://github.com/shresthgour/3D-Playground",
   },
   {
-    name: "Ace",
+    name: "Finonest (Loan Platform)",
     description:
-      "This is a website that I made from scratch during my internship because of that code will be private but there is a live link.",
+      "Production loan platform with real customers: config-driven Used Car Loan application, automated lead status workflows, bank recommendations, recovery & payout Excel export, and Gmail/Outlook/Zoho mail conversation views.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "smtp",
+        color: "green-text-gradient",
+      },
+    ],
+    image: null,
+    isConfidential: true,
+  },
+  {
+    name: "Jaypore Murti",
+    description:
+      "E-commerce platform with 200+ listed products, custom size charts, inventory tracking, sales analytics, rich-text blog management, and an AI-powered conversational chatbot for customer support.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aichatbot",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jaypore,
+    live_link: "https://jayporemurti.com/",
+  },
+  {
+    name: "Shakti Puja",
+    description:
+      "Pooja and ritual booking platform featuring client site, admin portal, REST API, MongoDB database, and a custom SMTP mailbox allowing administrators to read and reply to customer emails directly.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "smtp",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: shaktipuja,
+  },
+  {
+    name: "Qli Ventures",
+    description:
+      "Modern venture and corporate consulting web platform built from first design to hosting, featuring clean responsive UI, optimized asset loading, and interactive business capability showcases.",
     tags: [
       {
         name: "react",
@@ -279,14 +394,39 @@ const projects = [
         name: "tailwindcss",
         color: "green-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: qliventures,
+    live_link: "https://www.qli-ventures.com/",
+  },
+  {
+    name: "Ace",
+    description:
+      "Production corporate website developed from scratch during internship at BuzzOnEarth following custom design specifications, with optimized responsiveness and payment integration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
     ],
     image: ace,
-    source_code_link: "https://aceindia.in",
+    live_link: "https://aceindia.in",
   },
   {
     name: "Gaming Website",
     description:
-      "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences with animations. Witness the artistry of web development.",
+      "Showcasing modern frontend skills with elegant designs, animated transitions, and seamless user experiences with 3D and motion effects.",
     tags: [
       {
         name: "react",
@@ -304,83 +444,6 @@ const projects = [
     image: gaming,
     source_code_link: "https://github.com/shresthgour/Gaming-Website",
   },
-  // {
-  //   name: "HireHub",
-  //   description:
-  //     "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: hirehub,
-  //   source_code_link: "https://github.com/shresthgour/Hire-Hub",
-  // },
-  // {
-  //   name: "ShopCart",
-  //   description:
-  //     "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "restapi",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: shopcart,
-  //   source_code_link: "https://github.com/shresthgour/Shopcart",
-  // },
-  // {
-  //   name: "Excelify",
-  //   description:
-  //     "Showcasing my exceptional frontend skills with elegant designs and seamless user experiences. Witness the artistry of web development.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "hooks",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: excelify,
-  //   source_code_link: "https://github.com/shresthgour/excelify",
-  // },
-  
-  // {
-  //   name: "NewsWave",
-  //   description:
-  //     "It uses an API that fetches data and I showcased it using fetch API",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "bootstrap5",
-  //       color: "green-text-gradient",
-  //     },
-  //   ],
-  //   image: newswave,
-  //   source_code_link: "https://github.com/shresthgour/NewsWave",
-  // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, educations };

@@ -6,6 +6,7 @@ import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
+import Education from './Education';
 import Contact from './Contact';
 
 export {
@@ -15,6 +16,7 @@ export {
   Tech,
   Experience,
   Works,
+  Education,
   Feedbacks,
   Contact,
   EarthCanvas, 

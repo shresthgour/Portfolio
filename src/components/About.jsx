@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
@@ -42,11 +41,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a Full Stack Developer at Eleve Technologies with proven experience
+        building production web platforms and client websites from first design to
+        hosting. I have worked extensively on Finonest, a loan platform with real
+        customers, developing config-driven loan applications, lead approval workflows,
+        recovery & payout systems, and email integrations. Additionally, I have built five
+        client websites end-to-end, collaborate directly with clients on requirements
+        and technical demos, and mentor junior developers.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

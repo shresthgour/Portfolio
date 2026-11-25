@@ -28,6 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import freelancer from './company/freelancer.png'
 import buzzonearth from './company/buzzonearth.jpg'
+import eleve from './company/eleve tech logo.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,8 +43,15 @@ import ace from './projects/ace.png';
 import gaming from './projects/gaming.png';
 import playground from './projects/playground.png';
 import freelancerp from './projects/freelancer.png';
+import jaypore from './projects/Jaypore Murti.png';
+import shaktipuja from './projects/shaktipuja.png';
+import qliventures from './projects/Qli Ventures.png';
 
 export {
+  eleve,
+  jaypore,
+  shaktipuja,
+  qliventures,
   PW,
   ace,
   gaming,
